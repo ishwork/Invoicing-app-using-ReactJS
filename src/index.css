@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* GENERAL STYLES FOR SECTIONS IN "Create your invoice" PAGE */
+.PaperCard {
+  margin: 2rem 0;
+  padding: 1rem;
+  text-align: left;
+}
+
+.Title {
+  margin-bottom: 2rem;
+}
+
+.Content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+/*A workaround to theme Logo Uploader*/
+.MuiDropzonePreviewList-imageContainer {
+  max-width: 100% !important;
+  flex-basis: 100% !important;
+}
+.MuiDropzonePreviewList-removeButton {
+  right: auto !important;
+}
+/* END GENERAL STYLES FOR SECTIONS IN "Create your invoice" PAGE */
